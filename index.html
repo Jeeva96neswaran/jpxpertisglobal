@@ -3,34 +3,346 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JP Xpertis Global</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+    <title>JP Xpertis Global | Enterprise IT Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: { 950: '#0f172a' }
+                    }
+                }
+            }
         }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            border-radius: 8px;
-            background: #1e293b;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        }
-        h1 { color: #38bdf8; margin-bottom: 0.5rem; }
-        p { color: #94a3b8; font-size: 1.1rem; }
-    </style>
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <h1>JP Xpertis Global</h1>
-        <p>Expert Enterprise Infrastructure & Operations Solutions.</p>
-        <p style="font-size: 0.9rem; color: #64748b;">Site is under construction.</p>
-    </div>
+<body class="bg-slate-950 text-slate-100 antialiased font-sans">
+
+    <nav class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg bg-sky-500 flex items-center justify-between p-1.5 shadow-lg shadow-sky-500/20">
+                    <i class="fa-solid fa-layer-group text-slate-950 text-sm"></i>
+                </div>
+                <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">JP Xpertis Global</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#programs" class="hover:text-sky-400 transition">Programs</a>
+                <a href="#why-us" class="hover:text-sky-400 transition">Why Us</a>
+                <a href="#curriculum" class="hover:text-sky-400 transition">Curriculum</a>
+                <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+            </div>
+            <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">Enroll Now</a>
+        </div>
+    </nav>
+
+    <section class="relative overflow-hidden pt-24 pb-20 lg:pt-32 lg:pb-28 border-b border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 text-left">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-500/10 text-sky-400 mb-6 border border-sky-500/20">
+                    <span class="w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span> APAC IT Talent Accelerator
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                    Transforming Aspiring Talent into <span class="bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Industry-Ready IT Professionals</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-8 max-w-xl">
+                    Bridge the gap between academic theory and real-world infrastructure operational excellence. Accelerated, mentor-led programs customized for the modern enterprise ecosystem.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#programs" class="bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition shadow-lg shadow-sky-500/20">Explore Programs</a>
+                    <a href="#why-us" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-6 py-3 rounded-xl transition bg-slate-900/50">Why Choose Us</a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 relative">
+                <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-sky-500 to-indigo-500 opacity-20 blur-xl"></div>
+                <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/3739305aa_generated_5ffe1357.png" alt="Infrastructure Training" class="relative rounded-2xl border border-slate-800 object-cover w-full h-[400px] shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="border-b border-slate-900 bg-slate-900/30 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <p class="text-3xl font-extrabold text-white">100%</p>
+                    <p class="text-sm text-slate-500 mt-1">Practical Lab Focused</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-extrabold text-sky-400">16 Wks</p>
+                    <p class="text-sm text-slate-500 mt-1">Max Intensive Duration</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-extrabold text-white">RM 4K+</p>
+                    <p class="text-sm text-slate-500 mt-1">Avg Starting Salary</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-extrabold text-indigo-400">Hybrid</p>
+                    <p class="text-sm text-slate-500 mt-1">Flexible Delivery Models</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our Specialized Tech Tracks</h2>
+            <p class="text-slate-400">Select an optimized curriculum path designed around production environments, modern code architecture, and high-availability systems management.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/5a34df91d_generated_15e91724.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Bootcamp">
+                        <span class="absolute top-4 left-4 bg-sky-500 text-slate-950 font-bold text-xs px-2.5 py-1 rounded-md">Fresh Grads</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Fresh Graduate Bootcamp</h3>
+                        <p class="text-sm text-slate-400 mb-4">A 16-week intensive program designed to transform fresh graduates into industry-ready IT professionals with hands-on project experience.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Python</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">JavaScript</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">AWS</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 3,500–6,000/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 16 Weeks</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/d6d1e7ce1_generated_5262eb93.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Career Switch">
+                        <span class="absolute top-4 left-4 bg-indigo-500 text-white font-bold text-xs px-2.5 py-1 rounded-md">Career Switch</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Career Switcher Program</h3>
+                        <p class="text-sm text-slate-400 mb-4">Designed for professionals transitioning to IT. Accelerated curriculum covering fundamentals to specialized skills with career placement support.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Java</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">React</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">SQL</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 4,000–8,000/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 12 Weeks</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/3739305aa_generated_5ffe1357.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Development">
+                        <span class="absolute top-4 left-4 bg-purple-500 text-white font-bold text-xs px-2.5 py-1 rounded-md">Development</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Web Development Mastery</h3>
+                        <p class="text-sm text-slate-400 mb-4">Full-stack web development from HTML/CSS to modern frameworks. Build and deploy real-world applications during the training.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">React</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Node.js</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">MongoDB</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 4,500–9,000/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 10 Weeks</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/0e81d9795_generated_46274664.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Cloud">
+                        <span class="absolute top-4 left-4 bg-emerald-500 text-slate-950 font-bold text-xs px-2.5 py-1 rounded-md">Cloud</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Cloud Computing Fundamentals</h3>
+                        <p class="text-sm text-slate-400 mb-4">Master cloud architecture, deployment, and management. Prepare for AWS or Azure certification with hands-on lab environments.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">AWS</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Azure</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Terraform</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Linux</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 5,000–10,000/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 8 Weeks</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/5a34df91d_generated_15e91724.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Basics">
+                        <span class="absolute top-4 left-4 bg-amber-500 text-slate-950 font-bold text-xs px-2.5 py-1 rounded-md">Basics</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Basic IT Literacy</h3>
+                        <p class="text-sm text-slate-400 mb-4">Start from zero. Learn computer fundamentals, office productivity, internet literacy, and basic troubleshooting skills.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Office 365</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Google Suite</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Windows</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Networking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 2,000–3,500/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 6 Weeks</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition flex flex-col justify-between group">
+                <div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/d6d1e7ce1_generated_5262eb93.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" alt="Data">
+                        <span class="absolute top-4 left-4 bg-pink-500 text-white font-bold text-xs px-2.5 py-1 rounded-md">Data</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Data Analytics & Data Viz</h3>
+                        <p class="text-sm text-slate-400 mb-4">Turn raw data into business insights. Learn SQL, Python for data, and visualization tools used by top companies.</p>
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Python</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">SQL</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Tableau</span>
+                            <span class="bg-slate-800 text-slate-300 text-xs px-2 py-0.5 rounded">Excel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-800/50 flex items-center justify-between mt-auto">
+                    <div>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-wider">Salary Potential</p>
+                        <p class="text-sm font-semibold text-emerald-400">RM 4,000–7,500/mo</p>
+                    </div>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fa-regular fa-clock"></i> 10 Weeks</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="why-us" class="py-20 bg-slate-900/40 border-t border-b border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
+            <div class="relative order-2 lg:order-1">
+                <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 opacity-10 blur-2xl"></div>
+                <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/5a34df91d_generated_15e91724.png" alt="Workspace Training" class="relative rounded-2xl border border-slate-800 shadow-xl object-cover w-full h-[380px]">
+            </div>
+            <div class="order-1 lg:order-2">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Engineered for Technical Mastery</h2>
+                <p class="text-slate-400 mb-8">We don't slide through presentations. Our curriculum drops candidates directly into high-fidelity simulations modeled after enterprise production infrastructure.</p>
+                
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-code text-sky-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-white">Production-Ready Environments</h4>
+                            <p class="text-sm text-slate-400 mt-1">Work inside authentic container sandboxes, sandbox deployments, and virtual network topologies.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-user-tie text-indigo-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-white">Expert Advisory & Placement</h4>
+                            <p class="text-sm text-slate-400 mt-1">Mentorship guided entirely by senior data engineers, enterprise architects, and solution managers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-5">
+                <h2 class="text-3xl font-bold text-white mb-4">Enterprise Grade Core Framework</h2>
+                <p class="text-slate-400 mb-6">Our modules adapt continuously to support automation frameworks, continuous testing pipelines, and multi-tenant cloud orchestration standard across top APAC technology employers.</p>
+                <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+                    <p class="text-xs text-slate-500 uppercase tracking-wider mb-2 font-mono">System Architecture</p>
+                    <div class="flex gap-2 text-xs text-slate-400 font-mono">
+                        <span class="text-sky-400">CI/CD Pipeline</span> &bull; <span>IaC (Terraform)</span> &bull; <span class="text-indigo-400">Microservices</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-7">
+                <img src="https://media.base44.com/images/public/6a09d36a3c385de321cc63ed/0e81d9795_generated_46274664.png" alt="Architecture Map" class="w-full rounded-2xl border border-slate-800 shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-900/20 border-t border-slate-900">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Start Your Elite IT Journey</h2>
+            <p class="text-slate-400 mb-10">Have questions about tracks, placement networks, or enrollment criteria? Drop your information below.</p>
+            
+            <form action="https://formspree.io/f/placeholder" method="POST" class="bg-slate-900 border border-slate-800 rounded-2xl p-8 text-left space-y-6 shadow-xl">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Full Name</label>
+                        <input type="text" name="name" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-sky-500 transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Email Address</label>
+                        <input type="email" name="email" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-sky-500 transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Program of Interest</label>
+                    <select name="program" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-sky-500 transition">
+                        <option>Fresh Graduate Bootcamp (16 Weeks)</option>
+                        <option>Career Switcher Program (12 Weeks)</option>
+                        <option>Web Development Mastery (10 Weeks)</option>
+                        <option>Cloud Computing Fundamentals (8 Weeks)</option>
+                        <option>Basic IT Literacy (6 Weeks)</option>
+                        <option>Data Analytics & Visualization (10 Weeks)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Message / Background Details</label>
+                    <textarea name="message" rows="4" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-sky-500 transition"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold py-3.5 rounded-xl transition shadow-lg shadow-sky-500/15">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
+        <p>&copy; 2026 JP Xpertis Global. All Rights Reserved. Powered securely by GitHub Platforms.</p>
+    </footer>
+
 </body>
 </html>
